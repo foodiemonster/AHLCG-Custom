@@ -1,0 +1,120 @@
+{
+  "meta" : {
+    "code" : "165e70f7-76ca-47b9-9299-2e51ca9df9f1",
+    "name" : "Sights Unseen",
+    "description" : "An investigator expansion that focuses on the more grounded side of Arkham.",
+    "author" : "Javier Altman",
+    "language" : "en",
+    "external_link" : "",
+    "banner_url" : "",
+    "types" : [ "investigators" ],
+    "status" : "draft",
+    "date_updated" : "2025-06-01T01:59:03.3596503"
+  },
+  "data" : {
+    "cards" : [ {
+      "back_flavor" : "Lana made her life straddling the line—feeding secrets to both sides, never truly belonging to either. That used to be dangerous enough. But Arkham doesn't play by mortal rules. She’s seen things no whisper could warn her about. And in this city, the shadows don’t just hide people. Sometimes, they watch back.",
+      "back_name" : "Lana 'Red' Mallory",
+      "back_text" : "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Rogue cards ([rogue]) level 0-4, Neutral cards level 0-5, Guardian [guardian] and/or Survivor [survivor] Events level 0-1.\n<b>Deckbuilding Requirements</hdr> (do not count toward deck size)<hdr></b>: Double Life, Blown Cover, 1 random basic weakness.",
+      "code" : "647c193b-d5f1-4e98-83e6-824e0152443f",
+      "deck_requirements" : "size:30, card:7ae2834e-f62f-4f79-ad17-ada47edafab5, card:cb32b90c-2d65-448a-aeb0-1a512d1837ee, random:subtype:basicweakness",
+      "deck_options" : [ {
+        "faction" : [ "rogue", "neutral" ],
+        "level" : {
+          "min" : 0,
+          "max" : 4
+        }
+      }, {
+        "faction" : [ "guardian", "survivor" ],
+        "level" : {
+          "min" : 0,
+          "max" : 1
+        },
+        "type" : [ "event" ]
+      } ],
+      "deck_limit" : 1,
+      "double_sided" : true,
+      "faction_code" : "rogue",
+      "flavor" : "\"Everyone talks. I just make sure I'm the one listening.\"",
+      "health" : 6,
+      "illustrator" : "ChatGPT-4o",
+      "is_unique" : true,
+      "name" : "Lana 'Red' Mallory",
+      "pack_code" : "165e70f7-76ca-47b9-9299-2e51ca9df9f1",
+      "position" : 1,
+      "quantity" : 1,
+      "sanity" : 7,
+      "skill_agility" : 3,
+      "skill_combat" : 1,
+      "skill_intellect" : 4,
+      "skill_willpower" : 3,
+      "subname" : "The Informant",
+      "text" : "Start with <uni> Double Life in play, <b><i>Hidden</i></b> side up.\nThe first [survivor] or [guardian] event you play each round does not provoke attacks of opportunity.\n[elder_sign] effect: +2. You may return a [survivor] or [guardian] event from your discard pile to your hand.",
+      "traits" : "Criminal. Civic.",
+      "type_code" : "investigator",
+      "image_url" : "https://www.dropbox.com/scl/fi/44ya2f2epafrb988ydmmf/Lana-Red-Mallory-resolution-150-compressionquality-0.50-bleed-0.0-Front.jpg?rlkey=a7jtqqwozuzexq39cmkboy0zq&raw=1&cachebust=1748739515392",
+      "thumbnail_url" : "https://www.dropbox.com/scl/fi/x4h373m1a75ahd8htzrf8/Thumbnail-647c193b-d5f1-4e98-83e6-824e0152443f-Front.jpg?rlkey=7km94hp4zynjm660du0xl9vfu&raw=1&cachebust=1748739518504",
+      "back_image_url" : "https://www.dropbox.com/scl/fi/0ba8rhrqs7td3j08ibonr/Lana-Red-Mallory-resolution-150-compressionquality-0.50-bleed-0.0-Back.jpg?rlkey=wawvti6acd38ps553w3loir8r&raw=1&cachebust=1748739522531",
+      "back_thumbnail_url" : "https://www.dropbox.com/scl/fi/hl8ob7mhx7j4839cg60iu/Thumbnail-647c193b-d5f1-4e98-83e6-824e0152443f-Back.jpg?rlkey=b0p2ca7p8otfwoanteseunzen&raw=1&cachebust=1748739525426"
+    }, {
+      "back_link" : "7ae2834e-f62f-4f79-ad17-ada47edafab5-back",
+      "code" : "7ae2834e-f62f-4f79-ad17-ada47edafab5",
+      "deck_limit" : 1,
+      "faction_code" : "neutral",
+      "illustrator" : "ChatGPT-4o",
+      "is_unique" : true,
+      "name" : "Double Life",
+      "pack_code" : "165e70f7-76ca-47b9-9299-2e51ca9df9f1",
+      "position" : 2,
+      "quantity" : 1,
+      "restrictions" : "investigator:647c193b-d5f1-4e98-83e6-824e0152443f",
+      "subname" : "Laying Low",
+      "text" : "Permanent. Lana \"Red\" Mallory deck only.\n<b>Forced</b> - You can only <b><i>Move</i></b> once per turn. At the end of your turn, if you didn't move from your location, you may heal 1 damage from your investigator.\n[free] Flip this card to its <b><i>Exposed</i></b> side (once per round).",
+      "traits" : "Hidden.",
+      "type_code" : "asset",
+      "image_url" : "https://www.dropbox.com/scl/fi/irk3tzn4q7xu0zj74dvpt/Double-Life-resolution-150-compressionquality-0.50-bleed-0.0-Front.jpg?rlkey=lx7i0yusnks4j4io06n5t0zps&raw=1&cachebust=1748739528549",
+      "thumbnail_url" : "https://www.dropbox.com/scl/fi/6nhmsb8gjv4jhy886e2hl/Thumbnail-7ae2834e-f62f-4f79-ad17-ada47edafab5-Front.jpg?rlkey=vsio23vsz1gsbdhnu0qxz6mv5&raw=1&cachebust=1748739531429"
+    }, {
+      "code" : "7ae2834e-f62f-4f79-ad17-ada47edafab5-back",
+      "deck_limit" : 1,
+      "faction_code" : "neutral",
+      "hidden" : true,
+      "illustrator" : "ChatGPT-4o",
+      "is_unique" : true,
+      "name" : "Double Life",
+      "pack_code" : "165e70f7-76ca-47b9-9299-2e51ca9df9f1",
+      "position" : 2,
+      "quantity" : 1,
+      "restrictions" : "investigator:647c193b-d5f1-4e98-83e6-824e0152443f",
+      "subname" : "Making a Play",
+      "text" : "Permanent. Lana \"Red\" Mallory deck only.\nYou may take an additional action during your turn, which can only be used to move or investigate.\n<b>Forced</b> - When you would take damage or horror, take 1 extra of that type (once per round).\n[action] Flip this card to its <b><i>Hidden</i></b> side (once per round).",
+      "traits" : "Exposed.",
+      "type_code" : "asset",
+      "image_url" : "https://www.dropbox.com/scl/fi/5e17rrhnpqu1ibvh0rxfi/Double-Life-resolution-150-compressionquality-0.50-bleed-0.0-Back.jpg?rlkey=n5xh4h6e2rr8dl596mdd4ckkw&raw=1&cachebust=1748739534460",
+      "thumbnail_url" : "https://www.dropbox.com/scl/fi/6nhmsb8gjv4jhy886e2hl/Thumbnail-7ae2834e-f62f-4f79-ad17-ada47edafab5-Front.jpg?rlkey=vsio23vsz1gsbdhnu0qxz6mv5&raw=1&cachebust=1748739531429"
+    }, {
+      "code" : "cb32b90c-2d65-448a-aeb0-1a512d1837ee",
+      "deck_limit" : 1,
+      "faction_code" : "neutral",
+      "illustrator" : "ChatGPT-4o",
+      "name" : "Blown Cover",
+      "pack_code" : "165e70f7-76ca-47b9-9299-2e51ca9df9f1",
+      "position" : 3,
+      "quantity" : 1,
+      "restrictions" : "investigator:647c193b-d5f1-4e98-83e6-824e0152443f",
+      "subtype_code" : "weakness",
+      "text" : "<b>Revelation</b> - Check the current side of Double Life.\n- If you are <b><i>Hidden</i></b>, take 1 damage. Shuffle Blown Cover back into your deck.\n- Otherwise, if you are <b><i>Exposed</i></b>, place 1 clue on your location and take 1 direct damage. If you cannot place a clue, take an additional damage. Flip Double Life to its <b><i>Hidden</i></b> side and discard Blown Cover.",
+      "traits" : "Blunder.",
+      "type_code" : "treachery",
+      "image_url" : "https://www.dropbox.com/scl/fi/llr533a8zorb26kmzxbdj/Blown-Cover-resolution-150-compressionquality-0.50-bleed-0.0-Front.jpg?rlkey=1asjsvfs81hw2gqfrlb1opchu&raw=1&cachebust=1748739537347",
+      "thumbnail_url" : "https://www.dropbox.com/scl/fi/sk2obd3kia49rc2iwx7wi/Thumbnail-cb32b90c-2d65-448a-aeb0-1a512d1837ee-Front.jpg?rlkey=tw2pb7gi3gglud0f49jdwwlwe&raw=1&cachebust=1748739540253"
+    } ],
+    "encounter_sets" : [ ],
+    "packs" : [ {
+      "code" : "165e70f7-76ca-47b9-9299-2e51ca9df9f1",
+      "name" : "Sights Unseen",
+      "date_release" : "2025-06-01",
+      "icon_url" : "https://www.dropbox.com/scl/fi/q98mx4oqjz9eyco8u59rv/zoop_temp_image_collection165e70f7-76ca-47b9-9299-2e51ca9df9f1.png?rlkey=mzpvl5qd2uolkq5413fnjxen2&raw=1&cachebust=1748739543352"
+    } ]
+  }
+}
